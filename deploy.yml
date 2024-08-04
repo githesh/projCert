@@ -6,4 +6,4 @@
       command: docker build -t php-web-app .
 
     - name: Run Docker container
-      command: docker run -d -p 80:80 --name php-web-app php-web-app
+      command: docker run -d -p 80:80 -v ./website:/var/www/html --name php-web-app php-web-app
