@@ -1,6 +1,6 @@
 ---
 - name: Deploy PHP Application
-  hosts: webhost
+  hosts: localhost
   tasks:
     - name: Build Docker image
       command: docker build -t php-web-app .
