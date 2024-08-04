@@ -4,9 +4,6 @@ FROM php:apache
 # Set the working directory
 WORKDIR /var/www/html
 
-# Copy your application code
-COPY website/* /var/www/html/
-
 # Expose port 80 for HTTP
 EXPOSE 80
 
