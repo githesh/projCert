@@ -8,4 +8,4 @@ WORKDIR /var/www/html
 EXPOSE 80
 
 # Start Apache when the container starts
-CMD ["apachectl", "-D", "FOREGROUND"]
+CMD ["apache2-foreground"]
