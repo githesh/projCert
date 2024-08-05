@@ -3,7 +3,7 @@
   hosts: localhost
   tasks:
     - name: Build Docker image
-      command: docker build -t php-web-app .
+      command: docker build -t edu_web_img .
 
     - name: Run Docker container
-      command: docker run -d -p 80:80 -v ./website:/var/www/html --name php-web-app php-web-app
+      command: docker run -d -p 80:80 -v ./website:/var/www/html --name edu_web_app edu_web_img
