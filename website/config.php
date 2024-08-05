@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website For CICD',
+        'name' => 'Simple PHP Website For PWC',
         'nav_menu' => [
             '' => 'Home',
             'content/about-us.php' => 'About Us',
