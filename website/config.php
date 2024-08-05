@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website For DevOps Learning',
+        'name' => 'Simple PHP Website For EDUREKA DevOps',
         'nav_menu' => [
             '' => 'Home',
             'content/about-us.php' => 'About Us',
